@@ -24,5 +24,4 @@ function loadData() {
     console.log('Data loaded:', data);
 }
 
-Graphics.clear();
 Graphics.drawImage(bg_forest);
