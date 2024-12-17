@@ -15,7 +15,7 @@ let petStats = {
 function padZero(value) { return value < 10 ? '0' + value : value; }
 
 // rename to main or something since this is the main loop
-function drawPet(clear){
+function drawPet(clear = false){
   const interval = setInterval(() => {
     g.clear();
     g.drawImage(bgDay);
@@ -46,8 +46,17 @@ function drawTime(){
   g.drawString(currentTime, g.getWidth() * 0.2, g.getHeight() * 0.2);
 }
 
-// Execute main loop
-drawPet(false);
-Bangle.setUI("clock");
-Bangle.loadWidgets();
-Bangle.drawWidgets();
+Bangle.on('lcdPower', function (on) {
+    if (on) {
+      drawPet(false);
+    } else {
+      if (idTimeout) {
+        clearTimeout(idTimeout);
+      }
+    }
+  });
+  
+  // Show launcher when button pressed
+  Bangle.setUI("clock");
+  Bangle.loadWidgets();
+  Bangle.drawWidgets();
