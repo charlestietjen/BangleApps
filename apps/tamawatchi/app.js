@@ -49,15 +49,15 @@ function drawTime() {
 
 drawPet();
 
-Bangle.on('lcdPower', function (on) {
-    if (on) {
-        drawPet(false);
-    } else {
-        if (idTimeout) {
-            clearTimeout(idTimeout);
-        }
-    }
-});
+// Bangle.on('lcdPower', function (on) {
+//     if (on) {
+//         drawPet(false);
+//     } else {
+//         if (idTimeout) {
+//             clearTimeout(idTimeout);
+//         }
+//     }
+// });
 
 // Show launcher when button pressed
 Bangle.setUI("clock");
