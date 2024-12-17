@@ -1,0 +1,250 @@
+[33mcommit f5a3b09bcfa59c08a74a686c73637bb6242765fc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Tue Dec 17 18:48:12 2024 -0500
+
+    tamawatchi/corrects missing initial draw loop call
+
+[33mcommit 3412311f0322f62d39929cda1ee5d8b7fb8edaa8[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Tue Dec 17 18:40:33 2024 -0500
+
+    tamawatchi/changed draw loop to timeout
+
+[33mcommit 0cfb403494f1a5d0c68e879149c55ee8bbd483b9[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Tue Dec 17 18:18:34 2024 -0500
+
+    tamawatchi/wraps draw calls in Bangle on event
+
+[33mcommit 946545321af8fae03cc9ca6f22763c69a3da3131[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Tue Dec 17 18:11:09 2024 -0500
+
+    tamawatchi/add clock and widgets
+
+[33mcommit 63c744c4a9e7844b10691e6e4cc5e6723b8941cd[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Tue Dec 17 17:43:22 2024 -0500
+
+    tamawatchi/version reset
+
+[33mcommit 5a8e0ad8dc2d93e463d5ad98ae5821e504e87d48[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Tue Dec 17 17:41:46 2024 -0500
+
+    tamawatchi/poc build
+
+[33mcommit b579119a5616f6558fd36d21f71b0016cc5741ed[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Fri Dec 13 21:27:39 2024 -0500
+
+    tamawatchi/removed clear call
+
+[33mcommit 94dab9e8ff13f49ba2c334e24c61016404b56c2c[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Fri Dec 13 21:14:02 2024 -0500
+
+    tamawatchi/icons
+
+[33mcommit 31c3b1d8cfe404f350d5d74ea5822f34ad2f54b4[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Fri Dec 13 21:01:59 2024 -0500
+
+    tamawatchi/remove img
+
+[33mcommit 8b38c5f1382d3caab34485300a869f60f468417d[m
+Author: Charles Tietjen <tietjen.charles@gmail.com>
+Date:   Fri Dec 13 20:48:06 2024 -0500
+
+    tamawatchi init
+
+[33mcommit f96440520ed5fb984cbd517137e8756434e81cf1[m
+Merge: 516b74f05 9987a2def
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Wed Dec 11 18:40:02 2024 +0000
+
+    Merge pull request #3682 from bobrippling/feat/promenu-remove
+    
+    promenu: call `options.remove` when removed
+
+[33mcommit 516b74f0519f611de076876179365f695191045c[m
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Wed Dec 11 16:24:38 2024 +0000
+
+    openstmap - allow usage of black&white map layer
+
+[33mcommit 1ec19d47b177197032f2f79304c6bc415489d691[m
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Mon Dec 9 16:56:52 2024 +0000
+
+    Update dependabot.yml to mention gfwilliams
+
+[33mcommit 4ce5aff1d64bf2db68051703621de3a45004b3dd[m
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Mon Dec 9 16:52:38 2024 +0000
+
+    Show 'update complete' message after bootloader update so as not to freak people out
+
+[33mcommit fdffbf2933516fcdfb27cb79a74d4a52f741afd5[m
+Merge: b51b2af64 d18278df1
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Mon Dec 9 16:46:55 2024 +0000
+
+    Merge pull request #3688 from pavelmachek/m_43_agps
+    
+    assistedgps: Fix combination of all systems
+
+[33mcommit b51b2af6412db4c75f97dda2bca2e9d0fd67954e[m
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Mon Dec 9 16:44:03 2024 +0000
+
+    Fix update that dependabot shouldn't have pushed in
+
+[33mcommit c26fcd0738c15e13b5f422378ecbf735878c7b4b[m
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Mon Dec 9 12:37:59 2024 +0000
+
+    DFU
+
+[33mcommit 3d56d6acba6206faa5e217be5967b5021abb157f[m
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Mon Dec 9 12:29:28 2024 +0000
+
+    recommend 2v25
+
+[33mcommit 144f483217082374a654cf2c3e0712d733cc48f6[m
+Author: Gordon Williams <gw@pur3.co.uk>
+Date:   Mon Dec 9 12:28:52 2024 +0000
+
+    2v25 firmware, and put the 'upload' button nearer the top!
+
+[33mcommit 00f2a390dfbaaa1e9fc54fffa87e205e673aadf9[m
+Merge: 723826612 a3ffcf78e
+Author: thyttan <97237430+thyttan@users.noreply.github.com>
+Date:   Mon Dec 9 09:37:23 2024 +0100
+
+    Merge pull request #3689 from espruino/dependabot/submodules/core-1985313
+    
+    build(deps): bump core from `08dee6d` to `1985313`
+
+[33mcommit a3ffcf78ee3c60f792f87f3aadadf24830e767fd[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Mon Dec 9 00:51:26 2024 +0000
+
+    build(deps): bump core from `08dee6d` to `1985313`
+    
+    Bumps [core](https://github.com/espruino/EspruinoAppLoaderCore) from `08dee6d` to `1985313`.
+    - [Commits](https://github.com/espruino/EspruinoAppLoaderCore/compare/08dee6d58420ab2d04f42bdd23d8255f74bdcf15...1985313fdf3ad7a584e39c108686e377d66c43d1)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: core
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit d18278df168712849fd8512141ca2dd77f707dba[m
+Author: Pavel Machek <pavel@ucw.cz>
+Date:   Wed Nov 27 20:37:21 2024 +0100
+
+    assistedgps: Fix combination of all systems
+
+[33mcommit 7238266124cbc35a29e0049f0712cc8634fd437c[m
+Merge: 615ab14c7 4415576d1
+Author: thyttan <97237430+thyttan@users.noreply.github.com>
+Date:   Fri Dec 6 09:40:26 2024 +0100
+
+    Merge pull request #3687 from espruino/dependabot/submodules/core-08dee6d
+    
+    build(deps): bump core from `ea066f9` to `08dee6d`
+
+[33mcommit 4415576d171ff8d00e4972fdab835a74d5cdec79[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Dec 6 00:18:18 2024 +0000
+
+    build(deps): bump core from `ea066f9` to `08dee6d`
+    
+    Bumps [core](https://github.com/espruino/EspruinoAppLoaderCore) from `ea066f9` to `08dee6d`.
+    - [Commits](https://github.com/espruino/EspruinoAppLoaderCore/compare/ea066f9ec69e64ddb8a077a2fee268ba4abf1e1c...08dee6d58420ab2d04f42bdd23d8255f74bdcf15)
+    
+    ---
+    updated-dependencies:
+    - dependency-name: core
+      dependency-type: direct:production
+    ...
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 615ab14c741e8af3064128388f4cdbc367b9ff3d[m
+Merge: d24aefc84 7a431011d
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Tue Dec 3 22:27:33 2024 +0000
+
+    Merge pull request #3681 from bobrippling/feat/widbtstates-opt
+    
+    widbtstates: generate better js indexing
+
+[33mcommit d24aefc84630de75dd335943aebf806b2a981dc8[m
+Merge: ab3944efd b6d61d5d6
+Author: thyttan <97237430+thyttan@users.noreply.github.com>
+Date:   Tue Dec 3 21:04:12 2024 +0100
+
+    Merge pull request #3684 from thyttan/dtlaunch
+    
+    dtlaunch: info re settings in readme
+
+[33mcommit b6d61d5d6a548f6313af00ce3e2ae3e1dcfffa3b[m
+Author: thyttan <6uuxstm66@mozmail.com⁩>
+Date:   Tue Dec 3 21:02:10 2024 +0100
+
+    dtlaunch: info re settings in readme
+
+[33mcommit ab3944efda5cf780ab2f1b5ad74aee8561157c2f[m
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Tue Dec 3 18:15:09 2024 +0000
+
+    Generate typescript
+
+[33mcommit 9987a2def90d3d3f178dc8b9fe9e6bc270121584[m
+Merge: b2ff2eb47 ab3944efd
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Tue Dec 3 18:12:15 2024 +0000
+
+    Merge branch 'master' into feat/promenu-remove
+
+[33mcommit b01901c8b7ba2278d2b1c60d0a4fb948ac0580cd[m
+Merge: 22078e87c aea8ff900
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Tue Dec 3 12:17:57 2024 +0000
+
+    Merge pull request #3678 from cbkerr/andark-fastload-queue
+    
+    andark: queue redraws and enable fastload
+
+[33mcommit b2ff2eb47f5b2ef6e3bc2c228e2a669f2930b1b9[m
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Tue Dec 3 12:18:47 2024 +0000
+
+    promenu: call `options.remove` when removed
+
+[33mcommit 7a431011df490b45f7a94b8e110fd922d56f9476[m
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Tue Dec 3 12:19:31 2024 +0000
+
+    widbtstates: generate better js indexing
+    
+    with a slight typescript hack - avoid generating a new string when
+    we can use a boolean
+
+[33mcommit 22078e87cc23f62cdddd9749f6a7ff2819f42607[m
+Merge: dfde43404 9563658c4
+Author: Rob Pilling <robpilling@gmail.com>
+Date:   Sat Nov 30 19:42:00 2024 +0000
+
+    Merge pull request #3679 from gsuarezc/master
+    
+    owmweather: Fix infinite loop when settings.updated is not defined
+
+[33mcommit 9563658c4ea48c889335d5099fa75d8070bcaf83[m
+Author: gsu

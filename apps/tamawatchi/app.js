@@ -47,6 +47,8 @@ function drawTime() {
     g.drawString(currentTime, g.getWidth() * 0.2, g.getHeight() * 0.2);
 }
 
+drawPet();
+
 Bangle.on('lcdPower', function (on) {
     if (on) {
         drawPet(false);
