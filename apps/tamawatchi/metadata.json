@@ -1,7 +1,7 @@
 { "id": "tamawatchi",
   "name": "Tamawatchi",
   "shortName" : "Tamawatchi",
-  "version": "0.1",
+  "version": "0.01",
   "icon": "app.png",
   "description": "A virtual pet in a clockface that feeds off of your good health.",
   "readme": "readme.md",
