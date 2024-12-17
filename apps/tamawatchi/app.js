@@ -48,3 +48,6 @@ function drawTime(){
 
 // Execute main loop
 drawPet(false);
+Bangle.setUI("clock");
+Bangle.loadWidgets();
+Bangle.drawWidgets();
