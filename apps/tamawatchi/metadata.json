@@ -12,7 +12,7 @@
     {"name":"tamawatchi.app.js","url":"app.js"},
     {"name":"tamawatchi.img","url":"app-icon.js","evaluate":true},
     {"name": "backgrounds.js", "url": "backgrounds.js"},
-    {"name": "perGraphics.js", "url": "petGraphics.js"}
+    {"name": "petGraphics.js", "url": "petGraphics.js"}
   ],
   "screenshots": [
     {"url": "screenshot.png"}
