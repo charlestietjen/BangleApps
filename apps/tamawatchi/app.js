@@ -1,6 +1,6 @@
 // const imgPetStage_1 = require("heatshrink").decompress(atob("iEQ4kA///m3bg8pI3kikQGEgURiMgAwchA4MSA4QGBkMSCAYOCDAgHEDAQHBiQCCFwgwFHwJAGACgA=="));
-const petGraphics = require('petGraphics.js');
-const backgrounds = require('backgrounds.js');
+const petGraphics = require('./petGraphics.js');
+const backgrounds = require('./backgrounds.js');
 
 // indev data will be saved/loaded to/from json in prod
 let petStats = {
