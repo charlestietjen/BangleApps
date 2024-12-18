@@ -27,7 +27,7 @@ function drawPet(clear = false) {
             petStats.debugCurrentFrame += 1;
         }
         if (clear) {
-            return
+            return;
         }
         drawPet();
     }, 1000);
@@ -47,17 +47,21 @@ function drawTime() {
     g.drawString(currentTime, g.getWidth() * 0.2, g.getHeight() * 0.2);
 }
 
+function logHealth() {
+	console.log(Bangle.getHealthStatus('last'));
+}
+
 drawPet();
 
-// Bangle.on('lcdPower', function (on) {
-//     if (on) {
-//         drawPet(false);
-//     } else {
-//         if (idTimeout) {
-//             clearTimeout(idTimeout);
-//         }
-//     }
-// });
+Bangle.on('lcdPower', function (on) {
+    if (on) {
+        drawPet(false);
+    } else {
+        if (idTimeout) {
+            clearTimeout(idTimeout);
+        }
+    }
+});
 
 // Show launcher when button pressed
 Bangle.setUI("clock");
