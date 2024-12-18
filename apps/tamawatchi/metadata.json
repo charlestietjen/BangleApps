@@ -11,8 +11,8 @@
   "storage": [
     {"name":"tamawatchi.app.js","url":"app.js"},
     {"name":"tamawatchi.img","url":"app-icon.js","evaluate":true},
-    {"name": "backgrounds.js", "url": "backgrounds.js"},
-    {"name": "petGraphics.js", "url": "petGraphics.js"}
+    {"name": "tamawatchi.backgrounds.js", "url": "backgrounds.js"},
+    {"name": "tamawatchi.petGraphics.js", "url": "petGraphics.js"}
   ],
   "screenshots": [
     {"url": "screenshot.png"}
